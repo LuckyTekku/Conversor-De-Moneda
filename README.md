@@ -2,7 +2,7 @@
 
 **Aplicación Java para conversión de divisas usando ExchangeRate-API**  
 [![Java](https://img.shields.io/badge/Java-17-%23ED8B00?logo=openjdk)](https://openjdk.org/)
-[![License](https://img.shields.io/badge/Licencia-MIT-green)](LICENSE)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 <img src="screenshot.png" width="400" alt="Demo de la aplicación">
 
