@@ -8,12 +8,13 @@
 
 > Proyecto desarrollado para el programa ONE-Backend. Convierte entre múltiples divisas usando tasas de cambio en tiempo real.
 
-## 🌟 Características Principales
-- ✅ Conversión en tiempo real usando [ExchangeRate-API](https://www.exchangerate-api.com/)
-- ✅ Gestión personalizable de lista de monedas
-- ✅ Historial de conversiones
-- ✅ Interfaz de línea de comandos (CLI) intuitiva
-- ✅ Soporte para 160+ divisas internacionales
+## 🌟 Funcionalidades
+- ✅ 1. [Hacer conversión de moneda](#hacer-conversion-de-moneda).
+- ✅2. Ver listado actual de monedas.
+- ✅3. Agregar una moneda al listado.
+- ✅4. Eliminar una moneda del listado.
+- ✅5. Ver tu historial de conversión de monedas.
+- ✅7. Salir
 
 ## 🚀 Primeros Pasos
 
