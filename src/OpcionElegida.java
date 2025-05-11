@@ -37,11 +37,11 @@ public class OpcionElegida {
         }
     }
 
-    private void mostrarResultado(String de, String a, double monto) {
-        Monedas resultado = apiCaller.convertidor(monto, de, a);
-        System.out.printf("%.2f %s = %.2f %s (Tasa: %.4f)%n",
-                monto, de,
-                resultado.conversion_result(), a,
-                resultado.conversion_rate());
+   private void mostrarResultado(String de, String a, double monto) {
+    Monedas resultado = apiCaller.convertidor(monto, de, a);
+    System.out.printf("Tu monto original de %.2f %s , tiene un valor de %.2f %s , con una tasa de cambio de %.4f%n",
+            monto, de,
+            resultado.conversion_result(), a,
+            resultado.conversion_rate());
     }
 }
