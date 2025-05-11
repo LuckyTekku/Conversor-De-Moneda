@@ -5,8 +5,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class ApiCaller {
-    private static final String API_KEY = "tu_api_key_aqui"; // Reemplaza con tu API key real
-
+    
     public Monedas convertidor(double monto, String ISOorigen, String ISOdestino) {
         URI direccion = URI.create("https://v6.exchangerate-api.com/v6/" + "8afa1fba3bcf1d15077c6bab" +
                 "/pair/" + ISOorigen + "/" + ISOdestino + "/" + monto);
